@@ -1,0 +1,42 @@
+{
+  "pct_fraude_train": 0.0774,
+  "pct_fraude_prod": 0.6491,
+  "psi": {
+    "step": 11.5133,
+    "errorBalanceDest": 0.0122,
+    "isFraud": 0.0122,
+    "ratio_amount": 0.0074,
+    "errorBalanceOrig": 0.0043,
+    "newbalanceDest": 0.0038,
+    "oldbalanceOrg": 0.0036,
+    "amount": 0.0034,
+    "isCashOut": 0.0027,
+    "oldbalanceDest": 0.0025,
+    "newbalanceOrig": 0.0023,
+    "isMerchant": 0.001,
+    "isTransfer": 0.0005
+  },
+  "peor_dia_recall": [
+    {
+      "dia": 24,
+      "transacciones": 58712,
+      "pct_fraude": 0.402,
+      "recall": 0.9958,
+      "precision": 1.0
+    },
+    {
+      "dia": 26,
+      "transacciones": 8574,
+      "pct_fraude": 3.219,
+      "recall": 0.9964,
+      "precision": 1.0
+    },
+    {
+      "dia": 16,
+      "transacciones": 192131,
+      "pct_fraude": 0.0531,
+      "recall": 1.0,
+      "precision": 1.0
+    }
+  ]
+}
