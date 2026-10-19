@@ -1,0 +1,25 @@
+# Carpeta de trabajo del asistente (no se sube al repo)
+context/
+
+# Datos: CSV crudo (470 MB, no cabe en GitHub) y features generadas
+Datos/*.csv
+Datos/procesado/
+
+# Entornos y artefactos de Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Registro local de MLflow (la evidencia vive en DagsHub)
+mlruns/
+mlartifacts/
+
+# Credenciales y entorno
+.env
+*.token
+
+# Sistema e IDE
+.DS_Store
+Thumbs.db
+.vscode/

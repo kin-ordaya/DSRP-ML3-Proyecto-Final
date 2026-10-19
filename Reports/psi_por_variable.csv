@@ -1,0 +1,14 @@
+variable,psi,estado
+step,11.5133,drift
+errorBalanceDest,0.0122,estable
+isFraud,0.0122,estable
+ratio_amount,0.0074,estable
+errorBalanceOrig,0.0043,estable
+newbalanceDest,0.0038,estable
+oldbalanceOrg,0.0036,estable
+amount,0.0034,estable
+isCashOut,0.0027,estable
+oldbalanceDest,0.0025,estable
+newbalanceOrig,0.0023,estable
+isMerchant,0.001,estable
+isTransfer,0.0005,estable
